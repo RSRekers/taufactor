@@ -6,6 +6,7 @@ def flux_direction(im, outpath=None):
     """
     Plots the flux direction of the image and provides code for transposing the image to change the flux direction
     :param im: segmented input image with n phases
+    :outpath: filepath to save the flux direction analysis image to
     :return: None
     """
     im = np.asarray(im)
